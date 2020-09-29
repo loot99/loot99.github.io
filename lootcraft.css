@@ -4,8 +4,8 @@ body {background-color: black;}
 .header {
  padding: 1px;
  text-align: center;
- background: rgb(0,20,26);
- background: linear-gradient(180deg, rgba(0,20,26,1) 0%, rgba(0,11,15,1) 100%);
+ background: rgb(15,21,81);
+ background: linear-gradient(180deg, rgba(15,21,81,1) 0%, rgba(9,13,47,1) 100%);
  color: white;
  font-size: 18px;
  border-radius: 4px
@@ -34,15 +34,15 @@ body {background-color: black;}
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background: rgb(0,255,255);
-  background: linear-gradient(180deg, rgba(0,255,255,0.75) 0%, rgba(0,148,255,0.75) 100%);
+  background: rgb(65,109,255);
+  background: linear-gradient(180deg, rgba(65,109,255,0.75) 0%, rgba(18,28,109,0.75) 100%);
   color: white;
 }
 
 /* Style the active/current link*/
 .header a.active {
-  background: rgb(0,255,255);
-  background: linear-gradient(180deg, rgba(0,255,255,1) 0%, rgba(0,148,255,1) 100%);
+  background: rgb(65,109,255);
+  background: linear-gradient(180deg, rgba(65,109,255,1) 0%, rgba(17,26,105,1) 100%);
   color: white;
 }
 /* Float the link section to the right */
